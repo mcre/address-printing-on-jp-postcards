@@ -1,0 +1,94 @@
+This is LuaTeX, Version 1.10.0 (TeX Live 2019) 
+ restricted system commands enabled.
+(./work/tmp.tex
+LaTeX2e <2019-10-01> patch level 3
+
+luaotfload | main : initialization completed in 0.669 seconds
+(/usr/local/texlive/2019/texmf-dist/tex/luatex/luatexja/ltjtarticle.cls
+Document Class: ltjtarticle 2019/10/17 v1.8c-ltj-17 Standard LuaLaTeX-ja class
+(/usr/local/texlive/2019/texmf-dist/tex/luatex/luatexja/luatexja.sty
+(/usr/local/texlive/2019/texmf-dist/tex/luatex/luatexja/luatexja-core.sty
+(/usr/local/texlive/2019/texmf-dist/tex/luatex/luatexbase/luatexbase.sty
+(/usr/local/texlive/2019/texmf-dist/tex/luatex/ctablestack/ctablestack.sty))
+(/usr/local/texlive/2019/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/pdftexcmds/pdftexcmds.sty
+(/usr/local/texlive/2019/texmf-dist/tex/generic/infwarerr/infwarerr.sty)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/iftex/iftex.sty))
+(/usr/local/texlive/2019/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+(/usr/local/texlive/2019/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/local/texlive/2019/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+(/usr/local/texlive/2019/texmf-dist/tex/generic/xkeyval/keyval.tex))))
+(/usr/local/texlive/2019/texmf-dist/tex/generic/atbegshi/atbegshi.sty)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/etoolbox/etoolbox.sty)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/everyhook/everyhook.sty
+(/usr/local/texlive/2019/texmf-dist/tex/latex/svn-prov/svn-prov.sty))(save cach
+e: /root/.texlive2019/texmf-var/luatexja/ltj-cid-auto-adobe-japan1.lua)(save ca
+che: /root/.texlive2019/texmf-var/luatexja/ltj-cid-auto-adobe-japan1.luc)
+(/usr/local/texlive/2019/texmf-dist/tex/luatex/luatexja/ltj-base.sty)
+(/usr/local/texlive/2019/texmf-dist/tex/luatex/luatexja/ltj-latex.sty
+(/usr/local/texlive/2019/texmf-dist/tex/luatex/luatexja/patches/lltjfont.sty
+(/usr/local/texlive/2019/texmf-dist/tex/latex/base/tuenc.def)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/ms/everysel.sty)
+ABD: EverySelectfont initializing macros)
+(/usr/local/texlive/2019/texmf-dist/tex/luatex/luatexja/patches/lltjdefs.sty
+luaotfload | db : Font names database not found, generating new one.
+luaotfload | db : This can take several minutes; please be patient.
+(/usr/local/texlive/2019/texmf-dist/tex/luatex/luatexja/jfm-ujisv.lua)
+(/usr/local/texlive/2019/texmf-dist/tex/luatex/luatexja/jfm-ujis.lua))
+(/usr/local/texlive/2019/texmf-dist/tex/luatex/luatexja/patches/lltjcore.sty)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/filehook/filehook.sty)
+(/usr/local/texlive/2019/texmf-dist/tex/luatex/luatexja/patches/lltjp-geometry.
+sty (/usr/local/texlive/2019/texmf-dist/tex/generic/iftex/ifluatex.sty))))
+(/usr/local/texlive/2019/texmf-dist/tex/luatex/luatexja/luatexja-compat.sty(sav
+e cache: /root/.texlive2019/texmf-var/luatexja/ltj-jisx0208.luc)))
+(/usr/local/texlive/2019/texmf-dist/tex/luatex/luatexja/jfm-min.lua)
+(/usr/local/texlive/2019/texmf-dist/tex/luatex/luatexja/ltjtsize12.clo)
+(/usr/local/texlive/2019/texmf-dist/tex/luatex/luatexja/lltjext.sty)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/sttools/stfloats.sty)
+(/usr/local/texlive/2019/texmf-dist/tex/luatex/luatexja/patches/lltjp-stfloats.
+sty)) (/usr/local/texlive/2019/texmf-dist/tex/latex/geometry/geometry.sty
+(/usr/local/texlive/2019/texmf-dist/tex/generic/iftex/ifvtex.sty))
+(/usr/local/texlive/2019/texmf-dist/tex/luatex/luatexja/addons/luatexja-fontspe
+c.sty
+(/usr/local/texlive/2019/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+(/usr/local/texlive/2019/texmf-dist/tex/latex/l3kernel/expl3.sty
+(/usr/local/texlive/2019/texmf-dist/tex/latex/l3kernel/expl3-code.tex
+(/usr/local/texlive/2019/texmf-dist/tex/latex/l3kernel/l3deprecation.def))
+(/usr/local/texlive/2019/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def))
+) (/usr/local/texlive/2019/texmf-dist/tex/latex/fontspec/fontspec.sty
+(/usr/local/texlive/2019/texmf-dist/tex/latex/l3packages/xparse/xparse.sty)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/fontspec/fontspec-luatex.sty
+(/usr/local/texlive/2019/texmf-dist/tex/latex/base/fontenc.sty
+(/usr/local/texlive/2019/texmf-dist/tex/latex/base/tuenc.def))
+(/usr/local/texlive/2019/texmf-dist/tex/latex/fontspec/fontspec.cfg)
+
+LaTeX Font Warning: Font shape `JT3/mc/m/it' undefined
+(Font)              using `JT3/mc/m/n' instead on input line 3858.
+
+
+LaTeX Font Warning: Font shape `JY3/mc/m/it' undefined
+(Font)              using `JY3/mc/m/n' instead on input line 3858.
+
+))
+(/usr/local/texlive/2019/texmf-dist/tex/luatex/luatexja/patches/lltjp-fontspec.
+sty)
+(/usr/local/texlive/2019/texmf-dist/tex/luatex/luatexja/addons/luatexja-fontspe
+c-27c.sty)) (./work/tmp.aux) ABD: EverySelectfont initializing macros
+《縦組モード》
+*geometry* driver: auto-detecting
+*geometry* detected driver: luatex
+[1{/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+[2] (./work/tmp.aux)
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+)
+ 5588 words of node memory still in use:
+   7 hlist, 1 vlist, 4 rule, 2 glue, 91 kern, 1 glyph, 2148 attribute, 71 glue_
+spec, 122 attribute_list, 1 write, 10 user_defined nodes
+   avail lists: 1:9,2:4481,3:278,4:71,5:226,6:4,7:234,9:168
+</usr/local/texlive/2019/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.
+otf></usr/local/texlive/2019/texmf-dist/fonts/truetype/public/ipaex/ipaexm.ttf>
+
+Output written on tmp.pdf (2 pages, 171169 bytes).
+Transcript written on tmp.log.

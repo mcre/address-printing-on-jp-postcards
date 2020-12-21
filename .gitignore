@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+*$py.class
+
+.DS_Store
+.vscode/
+
+work/*
+config/*
+input/*
+output/*
+
+!config/sample*.json
+!input/sample*.csv
+!output/sample*.pdf

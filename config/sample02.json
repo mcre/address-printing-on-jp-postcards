@@ -1,0 +1,19 @@
+{
+    "csv_format": {
+        "postal_code": "郵便番号",
+        "address_1": ["都道府県", "市区町村", "町域", "番地"],
+        "address_2": "アパート",
+        "family_name_1": "名字1",
+        "first_name_1": "名前1",
+        "honorific_title_1": "敬称1",
+        "family_name_2": "名字2",
+        "first_name_2": "名前2",
+        "honorific_title_2": "敬称2",
+        "family_name_3": "名字3",
+        "first_name_3": "名前3",
+        "honorific_title_3": "敬称3",
+        "family_name_4": "名字4",
+        "first_name_4": "名前4",
+        "honorific_title_4": "敬称4"
+    }
+}
