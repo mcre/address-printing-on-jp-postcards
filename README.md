@@ -2,6 +2,7 @@ address-printing-on-jp-postcards
 =================================
 
 はがきの宛名印刷のために、csvの住所録をPDFに変換します。
+
 configやテンプレートを変更することで、柔軟な入出力が可能です。
 
 ## Requirements
@@ -72,7 +73,7 @@ docker run -it --rm -v $(pwd):/workdir --rm texlive-python sh -c "python3 main.p
 
 ## Acknowledgments
 
-* texファイルに一部はこちらのリポジトリのソースコードを使用させていただいています
+* texファイルの一部はこちらのリポジトリのソースコードを使用させていただいています
   - https://github.com/rago1975/atena-sashikomi
 
 ## Contacts
