@@ -9,7 +9,13 @@ work/*
 config/*
 input/*
 output/*
+templates/document/*
+templates/page/*
+templates/page_break/*
 
 !config/sample*.json
 !input/sample*.csv
 !output/sample*.pdf
+!templates/document/default*.tex
+!templates/page/default*.tex
+!templates/page_break/default*.tex

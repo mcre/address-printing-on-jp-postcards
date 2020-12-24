@@ -1,4 +1,11 @@
 {
+    "input": "input/sample02.csv",
+    "output": "output/sample02.pdf",
+    "templates": {
+        "document": "templates/document/default.tex",
+        "page": "templates/page/default.tex",
+        "page_break": "templates/page_break/default.tex"
+    },
     "csv_format": {
         "postal_code": "郵便番号",
         "address_1": ["都道府県", "市区町村", "町域", "番地"],
@@ -15,5 +22,25 @@
         "family_name_4": "名字4",
         "first_name_4": "名前4",
         "honorific_title_4": "敬称4"
+    },
+    "processing": {
+        "replace": [
+            {"col": "postal_code", "from": "-", "to": ""}
+        ],
+        "split": [
+            {"col": "postal_code"}
+        ],
+        "default": [
+            {"col": "honorific_title_1", "value": "様"},
+            {"col": "honorific_title_2", "value": "様"},
+            {"col": "honorific_title_3", "value": "様"},
+            {"col": "honorific_title_4", "value": "様"}
+        ],
+        "show_only_if_exists": [
+            {"col": "honorific_title_1", "exists": "first_name_1"},
+            {"col": "honorific_title_2", "exists": "first_name_2"},
+            {"col": "honorific_title_3", "exists": "first_name_3"},
+            {"col": "honorific_title_4", "exists": "first_name_4"}
+        ]
     }
 }
