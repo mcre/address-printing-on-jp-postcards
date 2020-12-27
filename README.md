@@ -12,7 +12,7 @@ configやテンプレートを変更することで、柔軟な入出力が可�
 ## Usage
 
 ```
-git clone 
+git clone https://github.com/mcre/address-printing-on-jp-postcards.git
 cd address-printing-on-jp-postcards
 docker build -t texlive-python .
 ```
