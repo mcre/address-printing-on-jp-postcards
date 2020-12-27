@@ -1,6 +1,7 @@
 import csv
 import json
 import os
+import re
 import shutil
 import string
 import subprocess
@@ -40,7 +41,7 @@ def processing(pconf, address):
             address[f'{p["col"]}_{i:02}'] = v
 
     for p in pconf.get('default', []):
-        if address.get(p['col']) == '':
+        if address.get(p['col'], '') == '':
             address[p['col']] = p['value']
 
     for p in pconf.get('show_only_if_exists', []):
@@ -60,10 +61,16 @@ def main(config_file):
     with open(config_file, 'r', encoding='utf-8') as f:
         config = json.load(f)
 
+    doc_template = Template(read(config['templates']['document']))
+    page_template = Template(read(config['templates']['page']))
+    break_tex = read(config['templates']['page_break'])
+
+    keys = re.findall(r'@{(.*?)}', page_template.template)
+
     address_list = []
-    with open(config['input'], 'r', encoding='utf-8') as f:
+    with open(config['input'], 'r', encoding='utf_8_sig') as f:
         for row in csv.DictReader(f):
-            address = {}
+            address = {key :'' for key in keys}
             for k, v in config['csv_format'].items():
                 if isinstance(v, str):
                     address[k] = row.get(v, '')
@@ -74,13 +81,13 @@ def main(config_file):
             if address is not None:
                 address_list.append(address)
 
-    doc_template = Template(read(config['templates']['document']))
-    page_template = Template(read(config['templates']['page']))
-    break_tex = read(config['templates']['page_break'])
-
     pages = []
     for address in address_list:
         pages.append(page_template.substitute(address))
+
+    if len(pages) <= 0:
+        print('出力数が0のため終了します')
+        sys.exit(0)
 
     tex = doc_template.substitute({'pages': f'\n{break_tex}\n'.join(pages)})
 
